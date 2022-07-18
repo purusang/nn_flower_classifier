@@ -36,21 +36,21 @@ def sigmoid(x):
 def sigmoid_p(x):
     return sigmoid(x)*(1-sigmoid(x))
 
-T = np.linspace(-20,20,100)
-Y = sigmoid(T)
-Y_p = sigmoid_p(T)
-# plt.plot(T,Y)
-# plt.plot(T,Y_p)
+# T = np.linspace(-20,20,100)
+# Y = sigmoid(T)
+# Y_p = sigmoid_p(T)
+# # plt.plot(T,Y)
+# # plt.plot(T,Y_p)
 
-#scatter data
-# plt.axis([0,6,0,6])
-# plt.grid()
-for i in range(len(data)):
-    point = data[i]
-    color='r'
-    if point[2] == 0:
-        color = 'b'
-    # plt.scatter(point[0], point[1], c =color)
+# #scatter data
+# # plt.axis([0,6,0,6])
+# # plt.grid()
+# for i in range(len(data)):
+#     point = data[i]
+#     color='r'
+#     if point[2] == 0:
+#         color = 'b'
+#     # plt.scatter(point[0], point[1], c =color)
 
 
 def train():
