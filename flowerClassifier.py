@@ -2,7 +2,14 @@
 """
 Created on Mon Jul 18 20:29:10 2022
 
-@author: DELL
+@author: Purushotam Sangroula
+This project is used to classify flowers based upon dimensions length and breadth.
+data variable is used as training data set in which 0->length, 1 -> breadth and 2 -> color or flower
+where 0 indicates blue flower 
+and 1 indicates red flower
+
+mystery_flower: a variable to query whether a flower with given dimension is red or a blue one.
+Windows text to speech converter has been used to produce voice in windows machine regarding flower's classification.
 """
 
 from matplotlib import pyplot as plt 
@@ -17,7 +24,7 @@ data = [[3,   1.5, 1],
         [5.5,  1,  1],
         [1,    1,  0]]
 
-mystery_flower = [4.5,1]
+mystery_flower = [2,2]
 
 #network
 #  ips: width, length
