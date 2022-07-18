@@ -10,6 +10,10 @@ and 1 indicates red flower
 
 mystery_flower: a variable to query whether a flower with given dimension is red or a blue one.
 Windows text to speech converter has been used to produce voice in windows machine regarding flower's classification.
+
+The concept of this project is taken from the following sources:
+https://www.youtube.com/watch?v=LSr96IZQknc&t=112s
+https://www.youtube.com/c/giantneuralnetwork
 """
 
 from matplotlib import pyplot as plt 
